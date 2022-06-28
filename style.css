@@ -27,6 +27,7 @@ body {
   padding: 15px 17px;
   box-sizing: border-box;
   outline: none;
+  border: none;
 }
 
 .header .badges i {
