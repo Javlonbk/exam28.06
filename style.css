@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #eaeaea;
+}
+.header {
+  margin-top: 20px;
+}
+.header .logo-name {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #101010;
+}
+.header form input {
+  width: 400px;
+  height: 45px;
+  left: 528px;
+  top: 18px;
+  background: #d9d9d9;
+  border-radius: 17px;
+  padding: 15px 17px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.header .badges i {
+  font-size: 24px;
+  margin-right: 15px;
+}
+
+.main .home {
+  width: 100%;
+  margin: 50px;
+  background: #101010;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+.main h2 {
+  width: 40%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  color: #ffffff;
+}
+.main img {
+  width: 250px;
+  height: auto;
+}
+
+.main .products .card-item {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 20px 0px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.main .products .card-item img {
+  width: 60%;
+  height: auto;
+}
+.main .products .card-item button {
+  width: 160px;
+  height: 30px;
+  background: #4117ea;
+  border-radius: 10px;
+  color: #fff;
+  border: none;
+}
+
+.main .products .card-item p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  color: #2424f4;
+  margin: 15px 0px;
+}
+.main .products .card-item i {
+  font-size: 24px;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+.footer {
+
+width: 100%;
+  margin-top: 50px;
+  padding: 30px;
+  box-sizing: border-box;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px 20px 0px 0px;
+}
+.footer ul li{
+    list-style-type: none;
+}
+.footer i{
+    font-size: 24px;
+    margin-left: 10px;
+}
